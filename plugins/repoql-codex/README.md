@@ -9,6 +9,8 @@ RepoQL gives ChatGPT and Codex a pre-built structural index of a codebase. The p
 
 ## Install
 
+By downloading and using RepoQL, you agree to the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).
+
 ```sh
 codex plugin marketplace add RepoQL/RepoQL
 codex plugin add repoql-codex@repoql
@@ -17,6 +19,8 @@ codex plugin add repoql-codex@repoql
 Review and trust the plugin hooks when Codex asks. The startup hook installs `rql` from `downloads.repoql.ai` when it is missing, then the bundled MCP configuration starts `rql mcp`. Set `REPOQL_NO_BOOTSTRAP=1` to disable automatic installation.
 
 To install `rql` manually:
+
+By downloading and using RepoQL, you agree to the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).
 
 ```sh
 # macOS or Linux
@@ -86,4 +90,4 @@ The Claude Code package includes a status-line builder. Codex does not expose a 
 
 ## License
 
-MIT
+The plugin integration files are MIT-licensed. The separately downloaded `rql` software is provided under the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).

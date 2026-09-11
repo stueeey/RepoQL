@@ -6,6 +6,8 @@ Queryable code intelligence for AI coding agents.
 
 ## Install
 
+By downloading and using RepoQL, you agree to the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).
+
 **Codex** — [install the RepoQL Codex plugin](plugins/repoql-codex/README.md).
 
 **Claude Code** — one-step plugin install (downloads the `rql` binary automatically on first session):
@@ -19,11 +21,15 @@ Queryable code intelligence for AI coding agents.
 
 **macOS / Linux**
 
+By downloading and using RepoQL, you agree to the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).
+
 ```sh
 curl -fsSL https://downloads.repoql.ai/latest/install-rql.sh | bash
 ```
 
 **Windows (PowerShell)**
+
+By downloading and using RepoQL, you agree to the [Customer Terms and Software Licence](https://repoql.com/terms/2026-09-11/).
 
 ```powershell
 irm https://downloads.repoql.ai/latest/install-rql.ps1 | iex
